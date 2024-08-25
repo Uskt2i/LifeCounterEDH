@@ -16,8 +16,8 @@
         android:layout_height="0dp"
         android:background="#3C3C3C"
         android:foregroundGravity="right"
-        app:layout_constraintHeight_percent="0.08"
-        app:layout_constraintStart_toEndOf="@+id/view_p1EDHp2"
+        app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp2"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.25" />
 
@@ -29,7 +29,7 @@
         android:backgroundTint="#454545"
         android:foregroundGravity="right"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.25" />
 
@@ -40,7 +40,7 @@
         android:background="#3C3C3C"
         android:foregroundGravity="right"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintTop_toBottomOf="@+id/view_p2EDHp1"
         app:layout_constraintWidth_percent="0.25" />
 
@@ -51,8 +51,8 @@
         android:background="#3C3C3C"
         android:backgroundTint="#454545"
         android:foregroundGravity="right"
-        app:layout_constraintHeight_percent="0.08"
-        app:layout_constraintStart_toEndOf="@+id/view_p1EDHp4"
+        app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp4"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintTop_toBottomOf="@+id/view_p2EDHp2"
         app:layout_constraintWidth_percent="0.25" />
 
@@ -62,7 +62,7 @@
         android:layout_height="0dp"
         android:background="#3C3C3C"
         android:foregroundGravity="right"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.25" />
@@ -74,7 +74,7 @@
         android:layout_height="0dp"
         android:background="#3C3C3C"
         android:foregroundGravity="right"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintStart_toEndOf="@+id/view_p1EDHp3"
         app:layout_constraintTop_toBottomOf="@+id/view_p1EDHp2"
         app:layout_constraintWidth_percent="0.25" />
@@ -86,7 +86,7 @@
         android:background="#3C3C3C"
         android:backgroundTint="#454545"
         android:foregroundGravity="right"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintStart_toEndOf="@+id/view_p1EDHp1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintWidth_percent="0.25" />
@@ -98,7 +98,7 @@
         android:background="#3C3C3C"
         android:backgroundTint="#454545"
         android:foregroundGravity="right"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view_p1EDHp1"
         app:layout_constraintWidth_percent="0.25" />
@@ -108,9 +108,9 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#454545"
-        app:layout_constraintBottom_toTopOf="@+id/view_p4Life"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.34"
+        app:layout_constraintHeight_percent="0.22"
+        app:layout_constraintTop_toBottomOf="@+id/view_p2EDHp4"
         app:layout_constraintWidth_percent="0.5" />
 
     <View
@@ -119,9 +119,9 @@
         android:layout_height="0dp"
         android:background="#454545"
         android:backgroundTint="#3C3C3C"
-        app:layout_constraintBottom_toTopOf="@+id/view_p3Life"
-        app:layout_constraintHeight_percent="0.34"
+        app:layout_constraintHeight_percent="0.22"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_p1EDHp3"
         app:layout_constraintWidth_percent="0.5" />
 
     <View
@@ -131,7 +131,7 @@
         android:background="#3C3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintWidth_percent="0.25" />
 
     <View
@@ -141,7 +141,7 @@
         android:background="#454545"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp2"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintWidth_percent="0.25" />
 
     <View
@@ -151,7 +151,7 @@
         android:background="#3C3C3C"
         app:layout_constraintBottom_toTopOf="@+id/view_p4EDHp3"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp2"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintWidth_percent="0.25" />
 
     <View
@@ -161,7 +161,7 @@
         android:background="#454545"
         app:layout_constraintBottom_toTopOf="@+id/view_p4EDHp4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintWidth_percent="0.25" />
 
     <View
@@ -171,7 +171,7 @@
         android:background="#3C3C3C"
         app:layout_constraintBottom_toTopOf="@+id/view_p4EDHp2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.34"
+        app:layout_constraintHeight_percent="0.22"
         app:layout_constraintWidth_percent="0.5" />
 
     <View
@@ -181,7 +181,7 @@
         android:background="#3C3C3C"
         android:backgroundTint="#454545"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.25" />
 
@@ -192,7 +192,7 @@
         android:background="#3C3C3C"
         android:backgroundTint="#454545"
         app:layout_constraintBottom_toTopOf="@+id/view_p3EDHp4"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintStart_toEndOf="@+id/view_p3EDHp1"
         app:layout_constraintWidth_percent="0.25" />
 
@@ -202,7 +202,7 @@
         android:layout_height="0dp"
         android:background="#3C3C3C"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintStart_toEndOf="@+id/view_p3EDHp3"
         app:layout_constraintWidth_percent="0.25" />
 
@@ -212,7 +212,7 @@
         android:layout_height="0dp"
         android:background="#3C3C3C"
         app:layout_constraintBottom_toTopOf="@+id/view_p3EDHp3"
-        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintHeight_percent="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.25" />
 
@@ -222,10 +222,11 @@
         android:layout_height="0dp"
         android:background="#454545"
         app:layout_constraintBottom_toTopOf="@+id/view_p3EDHp1"
-        app:layout_constraintHeight_percent="0.341"
+        app:layout_constraintHeight_percent="0.22"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintWidth_percent="0.5" />
 
+    <!--For Button View -->
     <Button
         android:id="@+id/btnP1LifeTop"
         android:layout_width="0dp"
@@ -234,11 +235,11 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view_p1Life"
         app:layout_constraintEnd_toEndOf="@+id/view_p1Life"
-        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHeight_percent="0.11"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnP1LifeButtom" />
 
     <Button
         android:id="@+id/btnP1LifeButtom"
@@ -249,7 +250,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/view_p2Life"
-        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHeight_percent="0.11"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view_p1Life" />
@@ -262,10 +263,11 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/view_p1Life"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.17"
-        app:layout_constraintStart_toEndOf="@+id/btnP1LifeTop" />
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnP1LifeTop"
+        app:layout_constraintTop_toBottomOf="@+id/btnP2LifeButtom" />
 
     <Button
         android:id="@+id/btnP2LifeButtom"
@@ -276,7 +278,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/view_p2Life"
-        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHeight_percent="0.11"
         app:layout_constraintStart_toEndOf="@+id/btnP1LifeButtom"
         app:layout_constraintTop_toTopOf="@+id/view_p1Life" />
 
@@ -289,10 +291,10 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/view_p3Life"
-        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHeight_percent="0.11"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/view_p3Life"
-        app:layout_constraintTop_toBottomOf="@+id/view_p1Life" />
+        tools:layout_editor_absoluteY="318dp" />
 
     <Button
         android:id="@+id/btnP3LifeButtom"
@@ -304,7 +306,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p3Life"
         app:layout_constraintEnd_toStartOf="@+id/view_p4Life"
-        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHeight_percent="0.11"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -315,11 +317,11 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnP4LifeButtom"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.17"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view_p4Life"
-        app:layout_constraintTop_toBottomOf="@+id/view_p1Life" />
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view_p4Life" />
 
     <Button
         android:id="@+id/btnP4LifeButtom"
@@ -329,10 +331,10 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/view_p4EDHp1"
         app:layout_constraintEnd_toEndOf="@+id/view_p4Life"
-        app:layout_constraintHeight_percent="0.17"
-        app:layout_constraintStart_toEndOf="@+id/btnP3LifeButtom"
-        app:layout_constraintTop_toBottomOf="@+id/btnP3LifeTop" />
+        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintStart_toEndOf="@+id/btnP3LifeButtom" />
     <!-- P4 EDH Button -->
     <Button
         android:id="@+id/btnP4EDHP3Buttom"
@@ -344,7 +346,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p4EDHp3"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p4EDHp3" />
 
     <Button
@@ -355,10 +357,10 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnP4EDHP3Buttom"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp4"
-        app:layout_constraintHeight_percent="0.04"
-        app:layout_constraintStart_toStartOf="@+id/view_p4EDHp3"
-        app:layout_constraintTop_toTopOf="@+id/view_p4EDHp3" />
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintStart_toStartOf="@+id/view_p4EDHp3" />
 
     <Button
         android:id="@+id/btnP4EDHP1Top"
@@ -368,10 +370,10 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnP4EDHP1Buttom"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp4"
-        app:layout_constraintHeight_percent="0.04"
-        app:layout_constraintStart_toStartOf="@+id/view_p4EDHp3"
-        app:layout_constraintTop_toTopOf="@+id/view_p4EDHp1" />
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintStart_toStartOf="@+id/view_p4EDHp3" />
 
     <Button
         android:id="@+id/btnP4EDHP1Buttom"
@@ -383,7 +385,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/view_p4EDHp3"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p4EDHp3" />
 
     <Button
@@ -396,7 +398,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/view_p4EDHp3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toEndOf="@+id/view_p4EDHp1" />
 
     <Button
@@ -407,10 +409,10 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnP4EDHP2Buttom"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.04"
-        app:layout_constraintStart_toEndOf="@+id/view_p4EDHp1"
-        app:layout_constraintTop_toTopOf="@+id/view_p4EDHp2" />
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintStart_toEndOf="@+id/view_p4EDHp1" />
 
     <!-- P3 EDH Button -->
     <Button
@@ -421,10 +423,10 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnP3EDHP4Buttom"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp3"
-        app:layout_constraintHeight_percent="0.04"
-        app:layout_constraintStart_toEndOf="@+id/view_p3EDHp3"
-        app:layout_constraintTop_toBottomOf="@+id/view_p3EDHp2" />
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintStart_toEndOf="@+id/view_p3EDHp3" />
 
     <Button
         android:id="@+id/btnP3EDHP4Buttom"
@@ -436,7 +438,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p3EDHp4"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp3"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toEndOf="@+id/view_p3EDHp3" />
 
     <Button
@@ -449,7 +451,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p3EDHp2"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp3"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toEndOf="@+id/view_p3EDHp3" />
 
     <Button
@@ -460,10 +462,10 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnP3EDHP2Buttom"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp3"
-        app:layout_constraintHeight_percent="0.04"
-        app:layout_constraintStart_toEndOf="@+id/view_p3EDHp3"
-        app:layout_constraintTop_toTopOf="@+id/view_p3EDHp2" />
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintStart_toEndOf="@+id/view_p3EDHp3" />
 
     <Button
         android:id="@+id/btnP3EDHP1Top"
@@ -473,10 +475,10 @@
         android:backgroundTint="#7E187100"
         android:text=""
         android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnP3EDHP1Buttom"
         app:layout_constraintEnd_toStartOf="@+id/view_p3EDHp2"
-        app:layout_constraintHeight_percent="0.04"
-        app:layout_constraintStart_toStartOf="@+id/view_p3EDHp1"
-        app:layout_constraintTop_toTopOf="@+id/view_p3EDHp2" />
+        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintStart_toStartOf="@+id/view_p3EDHp1" />
 
     <Button
         android:id="@+id/btnP3EDHP1Buttom"
@@ -488,7 +490,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/view_p3EDHp3"
         app:layout_constraintEnd_toStartOf="@+id/view_p3EDHp2"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p3EDHp1" />
     <!--P2 EDH Button -->
     <Button
@@ -500,7 +502,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p2EDHp3"
         app:layout_constraintTop_toTopOf="@+id/view_p2EDHp1" />
 
@@ -514,7 +516,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p2EDHp1"
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p2EDHp3" />
     <Button
         android:id="@+id/btnP2EDHP3Top"
@@ -526,7 +528,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p2EDHp3"
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/view_p2EDHp3" />
 
@@ -539,7 +541,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/view_p2EDHp3"
         app:layout_constraintTop_toBottomOf="@+id/view_p2EDHp1" />
@@ -553,7 +555,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/view_p2EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p2EDHp4"
         app:layout_constraintTop_toBottomOf="@+id/view_p2EDHp1" />
 
@@ -567,7 +569,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p2EDHp4"
         app:layout_constraintEnd_toEndOf="@+id/view_p2EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p2EDHp4" />
 
     <!--P1 EDH Button -->
@@ -581,7 +583,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p1EDHp3"
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp3"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p1EDHp4" />
 
     <Button
@@ -593,7 +595,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp3"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p1EDHp4"
         app:layout_constraintTop_toTopOf="@+id/view_p1EDHp4" />
 
@@ -606,7 +608,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp3"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p1EDHp4"
         app:layout_constraintTop_toTopOf="@+id/view_p1EDHp2" />
 
@@ -620,7 +622,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/view_p1EDHp4"
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp3"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p1EDHp4" />
 
     <Button
@@ -633,7 +635,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p1EDHp3"
         app:layout_constraintEnd_toStartOf="@+id/view_p1EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p1EDHp3" />
 
     <Button
@@ -645,7 +647,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/view_p1EDHp4"
-        app:layout_constraintHeight_percent="0.04"
+        app:layout_constraintHeight_percent="0.07"
         app:layout_constraintStart_toStartOf="@+id/view_p1EDHp3"
         app:layout_constraintTop_toBottomOf="@+id/view_p1EDHp1" />
 
