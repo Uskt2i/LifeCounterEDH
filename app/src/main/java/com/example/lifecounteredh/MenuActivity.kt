@@ -43,6 +43,8 @@ class MenuActivity : AppCompatActivity() {
         val btnCloseMenu: Button = findViewById(R.id.btnCloseMenu)
         val btnQuitApp: Button = findViewById(R.id.btnQuit)
         val btnRollTheDice: Button = findViewById(R.id.btnRollTheDice)
+        val btnReset:Button=findViewById(R.id.btnReset)
+
         val ivDice: ImageView = findViewById(R.id.ivDice)
 
         var dice_num: Int = 1
@@ -75,5 +77,40 @@ class MenuActivity : AppCompatActivity() {
                 else -> println("Number is out of range")
             }
         }
+        btnReset.setOnClickListener {
+            AlertDialog.Builder(this) // FragmentではActivityを取得して生成
+                .setTitle("Reset Life ?")
+                //.setMessage("Quit Application ?")
+                .setPositiveButton("Yes", { dialog, which ->
+                    // TODO:Yesが押された時の挙動
+
+                    sg.p1Life= 40
+                    sg.p2Life= 40
+                    sg.p3Life= 40
+                    sg.p4Life= 40
+
+                    sg.p4EDHP1Damage=0
+                    sg.p4EDHP2Damage=0
+                    sg.p4EDHP3Damage=0
+
+                    sg.p3EDHP1Damage=0
+                    sg.p3EDHP2Damage=0
+                    sg.p3EDHP4Damage=0
+
+                    sg.p2EDHP1Damage=0
+                    sg.p2EDHP3Damage=0
+                    sg.p2EDHP4Damage=0
+
+                    sg.p1EDHP2Damage=0
+                    sg.p1EDHP3Damage=0
+                    sg.p1EDHP4Damage=0
+                })
+                .setNegativeButton("No", { dialog, which ->
+                    // TODO:Noが押された時の挙動
+                })
+                .show()
+        }
+
+
     }
 }

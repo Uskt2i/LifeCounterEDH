@@ -106,6 +106,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnP4Menu:Button=findViewById(R.id.btnP4Menu)
 
+        /*
         var p1Life:Int=40
         var p2Life:Int=40
         var p3Life:Int=40
@@ -126,6 +127,9 @@ class MainActivity : AppCompatActivity() {
         var p1EDHP2Damage:Int=0
         var p1EDHP3Damage:Int=0
         var p1EDHP4Damage:Int=0
+         */
+
+
 
         //Button Menu
         btnP4Menu.setOnClickListener {
@@ -137,187 +141,234 @@ class MainActivity : AppCompatActivity() {
         }
         //Button
         btnP1LifeTop.setOnClickListener {
-            p1Life++
-            tvP1Life.text=p1Life.toString()
+            sg.p1Life++
+            tvP1Life.text=sg.p1Life.toString()
         }
         btnP2LifeTop.setOnClickListener {
-            p2Life++
-            tvP2Life.text=p2Life.toString()
+            sg.p2Life++
+            tvP2Life.text=sg.p2Life.toString()
         }
         btnP3LifeTop.setOnClickListener {
-            p3Life++
-            tvP3Life.text=p3Life.toString()
+            sg.p3Life++
+            tvP3Life.text=sg.p3Life.toString()
         }
         btnP4LifeTop.setOnClickListener {
-            p4Life++
-            tvP4Life.text=p4Life.toString()
+            sg.p4Life++
+            tvP4Life.text=sg.p4Life.toString()
         }
 
         //Button Click Button
         btnP1LifeButton.setOnClickListener {
-            p1Life--
-            tvP1Life.text=p1Life.toString()
+            sg.p1Life--
+            tvP1Life.text=sg.p1Life.toString()
         }
         btnP2LifeButton.setOnClickListener {
-            p2Life--
-            tvP2Life.text=p2Life.toString()
+            sg.p2Life--
+            tvP2Life.text=sg.p2Life.toString()
         }
         btnP3LifeButton.setOnClickListener {
-            p3Life--
-            tvP3Life.text=p3Life.toString()
+            sg.p3Life--
+            tvP3Life.text=sg.p3Life.toString()
         }
         btnP4LifeButton.setOnClickListener {
-            p4Life--
-            tvP4Life.text=p4Life.toString()
+            sg.p4Life--
+            tvP4Life.text=sg.p4Life.toString()
         }
         //Button P4 EDH damage
         btnP4EDHP1Top.setOnClickListener {
-            p4EDHP1Damage++
-            p4Life--
-            tvP4EDHP1Damage.text=p4EDHP1Damage.toString()
-            tvP4Life.text=p4Life.toString()
+            sg.p4EDHP1Damage++
+            sg.p4Life--
+            tvP4EDHP1Damage.text=sg.p4EDHP1Damage.toString()
+            tvP4Life.text=sg.p4Life.toString()
         }
         btnP4EDHP2Top.setOnClickListener {
-            p4EDHP2Damage++
-            p4Life--
-            tvP4EDHP2Damage.text=p4EDHP2Damage.toString()
-            tvP4Life.text=p4Life.toString()
+            sg.p4EDHP2Damage++
+            sg.p4Life--
+            tvP4EDHP2Damage.text=sg.p4EDHP2Damage.toString()
+            tvP4Life.text=sg.p4Life.toString()
         }
         btnP4EDHP3Top.setOnClickListener {
-            p4EDHP3Damage++
-            p4Life--
-            tvP4EDHP3Damage.text=p4EDHP3Damage.toString()
-            tvP4Life.text=p4Life.toString()
+            sg.p4EDHP3Damage++
+            sg.p4Life--
+            tvP4EDHP3Damage.text=sg.p4EDHP3Damage.toString()
+            tvP4Life.text=sg.p4Life.toString()
         }
         btnP4EDHP1Buttom.setOnClickListener {
-            p4EDHP1Damage--
-            p4Life++
-            tvP4EDHP1Damage.text=p4EDHP1Damage.toString()
-            tvP4Life.text=p4Life.toString()
+            sg.p4EDHP1Damage--
+            sg.p4Life++
+            tvP4EDHP1Damage.text=sg.p4EDHP1Damage.toString()
+            tvP4Life.text=sg.p4Life.toString()
         }
         btnP4EDHP2Buttom.setOnClickListener {
-            p4EDHP2Damage--
-            p4Life++
-            tvP4EDHP2Damage.text=p4EDHP2Damage.toString()
-            tvP4Life.text=p4Life.toString()
+            sg.p4EDHP2Damage--
+            sg.p4Life++
+            tvP4EDHP2Damage.text=sg.p4EDHP2Damage.toString()
+            tvP4Life.text=sg.p4Life.toString()
         }
         btnP4EDHP3Buttom.setOnClickListener {
-            p4EDHP3Damage--
-            p4Life++
-            tvP4EDHP3Damage.text=p4EDHP3Damage.toString()
-            tvP4Life.text=p4Life.toString()
+            sg.p4EDHP3Damage--
+            sg.p4Life++
+            tvP4EDHP3Damage.text=sg.p4EDHP3Damage.toString()
+            tvP4Life.text=sg.p4Life.toString()
         }
 
         //Button P3 EDH damage
         btnP3EDHP1Top.setOnClickListener {
-            p3EDHP1Damage++
-            p3Life--
-            tvP3EDHP1Damage.text=p3EDHP1Damage.toString()
-            tvP3Life.text=p3Life.toString()
+            sg.p3EDHP1Damage++
+            sg.p3Life--
+            tvP3EDHP1Damage.text=sg.p3EDHP1Damage.toString()
+            tvP3Life.text=sg.p3Life.toString()
         }
         btnP3EDHP2Top.setOnClickListener {
-            p3EDHP2Damage++
-            p3Life--
-            tvP3EDHP2Damage.text=p3EDHP2Damage.toString()
-            tvP3Life.text=p3Life.toString()
+            sg.p3EDHP2Damage++
+            sg.p3Life--
+            tvP3EDHP2Damage.text=sg.p3EDHP2Damage.toString()
+            tvP3Life.text=sg.p3Life.toString()
         }
         btnP3EDHP4Top.setOnClickListener {
-            p3EDHP4Damage++
-            p3Life--
-            tvP3EDHP4Damage.text=p3EDHP4Damage.toString()
-            tvP3Life.text=p3Life.toString()
+            sg.p3EDHP4Damage++
+            sg.p3Life--
+            tvP3EDHP4Damage.text=sg.p3EDHP4Damage.toString()
+            tvP3Life.text=sg.p3Life.toString()
         }
         btnP3EDHP1Buttom.setOnClickListener {
-            p3EDHP1Damage--
-            p3Life++
-            tvP3EDHP1Damage.text=p3EDHP1Damage.toString()
-            tvP3Life.text=p3Life.toString()
+            sg.p3EDHP1Damage--
+            sg.p3Life++
+            tvP3EDHP1Damage.text=sg.p3EDHP1Damage.toString()
+            tvP3Life.text=sg.p3Life.toString()
         }
         btnP3EDHP2Buttom.setOnClickListener {
-            p3EDHP2Damage--
-            p3Life++
-            tvP3EDHP2Damage.text=p3EDHP2Damage.toString()
-            tvP3Life.text=p3Life.toString()
+            sg.p3EDHP2Damage--
+            sg.p3Life++
+            tvP3EDHP2Damage.text=sg.p3EDHP2Damage.toString()
+            tvP3Life.text=sg.p3Life.toString()
         }
         btnP3EDHP4Buttom.setOnClickListener {
-            p3EDHP4Damage--
-            p3Life++
-            tvP3EDHP4Damage.text = p3EDHP4Damage.toString()
-            tvP3Life.text=p3Life.toString()
+            sg.p3EDHP4Damage--
+            sg.p3Life++
+            tvP3EDHP4Damage.text = sg.p3EDHP4Damage.toString()
+            tvP3Life.text=sg.p3Life.toString()
         }
         //Button P2 EDH damage
         btnP2EDHP1Top.setOnClickListener {
-            p2EDHP1Damage++
-            p2Life--
-            tvP2EDHP1Damage.text=p2EDHP1Damage.toString()
-            tvP2Life.text=p2Life.toString()
+            sg.p2EDHP1Damage++
+            sg.p2Life--
+            tvP2EDHP1Damage.text=sg.p2EDHP1Damage.toString()
+            tvP2Life.text=sg.p2Life.toString()
         }
         btnP2EDHP3Top.setOnClickListener {
-            p2EDHP3Damage++
-            p2Life--
-            tvP2EDHP3Damage.text=p2EDHP3Damage.toString()
-            tvP2Life.text=p2Life.toString()
+            sg.p2EDHP3Damage++
+            sg.p2Life--
+            tvP2EDHP3Damage.text=sg.p2EDHP3Damage.toString()
+            tvP2Life.text=sg.p2Life.toString()
         }
         btnP2EDHP4Top.setOnClickListener {
-            p2EDHP4Damage++
-            p2Life--
-            tvP2EDHP4Damage.text=p2EDHP4Damage.toString()
-            tvP2Life.text=p2Life.toString()
+            sg.p2EDHP4Damage++
+            sg.p2Life--
+            tvP2EDHP4Damage.text=sg.p2EDHP4Damage.toString()
+            tvP2Life.text=sg.p2Life.toString()
         }
         btnP2EDHP1Buttom.setOnClickListener {
-            p2EDHP1Damage--
-            p2Life++
-            tvP2EDHP1Damage.text=p2EDHP1Damage.toString()
-            tvP2Life.text=p2Life.toString()
+            sg.p2EDHP1Damage--
+            sg.p2Life++
+            tvP2EDHP1Damage.text=sg.p2EDHP1Damage.toString()
+            tvP2Life.text=sg.p2Life.toString()
         }
         btnP2EDHP4Buttom.setOnClickListener {
-            p2EDHP4Damage--
-            p2Life++
-            tvP2EDHP4Damage.text=p2EDHP4Damage.toString()
-            tvP2Life.text=p2Life.toString()
+            sg.p2EDHP4Damage--
+            sg.p2Life++
+            tvP2EDHP4Damage.text=sg.p2EDHP4Damage.toString()
+            tvP2Life.text=sg.p2Life.toString()
         }
         btnP2EDHP3Buttom.setOnClickListener {
-            p2EDHP3Damage--
-            p2Life++
-            tvP2EDHP3Damage.text=p2EDHP3Damage.toString()
-            tvP2Life.text=p2Life.toString()
+            sg.p2EDHP3Damage--
+            sg.p2Life++
+            tvP2EDHP3Damage.text=sg.p2EDHP3Damage.toString()
+            tvP2Life.text=sg.p2Life.toString()
         }
         //Button P1 EDH damage
         btnP1EDHP4Top.setOnClickListener {
-            p1EDHP4Damage++
-            p1Life--
-            tvP1EDHP4Damage.text=p1EDHP4Damage.toString()
-            tvP1Life.text=p1Life.toString()
+            sg.p1EDHP4Damage++
+            sg.p1Life--
+            tvP1EDHP4Damage.text=sg.p1EDHP4Damage.toString()
+            tvP1Life.text=sg.p1Life.toString()
         }
         btnP1EDHP2Top.setOnClickListener {
-            p1EDHP2Damage++
-            p1Life--
-            tvP1EDHP2Damage.text=p1EDHP2Damage.toString()
-            tvP1Life.text=p1Life.toString()
+            sg.p1EDHP2Damage++
+            sg.p1Life--
+            tvP1EDHP2Damage.text=sg.p1EDHP2Damage.toString()
+            tvP1Life.text=sg.p1Life.toString()
         }
         btnP1EDHP3Top.setOnClickListener {
-            p1EDHP3Damage++
-            p1Life--
-            tvP1EDHP3Damage.text=p1EDHP3Damage.toString()
-            tvP1Life.text=p1Life.toString()
+            sg.p1EDHP3Damage++
+            sg.p1Life--
+            tvP1EDHP3Damage.text=sg.p1EDHP3Damage.toString()
+            tvP1Life.text=sg.p1Life.toString()
         }
         btnP1EDHP4Buttom.setOnClickListener {
-            p1EDHP4Damage--
-            p1Life++
-            tvP1EDHP4Damage.text=p1EDHP4Damage.toString()
-            tvP1Life.text=p1Life.toString()
+            sg.p1EDHP4Damage--
+            sg.p1Life++
+            tvP1EDHP4Damage.text=sg.p1EDHP4Damage.toString()
+            tvP1Life.text=sg.p1Life.toString()
         }
         btnP1EDHP2Buttom.setOnClickListener {
-            p1EDHP2Damage--
-            p1Life++
-            tvP1EDHP2Damage.text=p1EDHP2Damage.toString()
-            tvP1Life.text=p1Life.toString()
+            sg.p1EDHP2Damage--
+            sg.p1Life++
+            tvP1EDHP2Damage.text=sg.p1EDHP2Damage.toString()
+            tvP1Life.text=sg.p1Life.toString()
         }
         btnP1EDHP3Buttom.setOnClickListener {
-            p1EDHP3Damage--
-            p1Life++
-            tvP1EDHP3Damage.text=p1EDHP3Damage.toString()
-            tvP1Life.text=p1Life.toString()
+            sg.p1EDHP3Damage--
+            sg.p1Life++
+            tvP1EDHP3Damage.text=sg.p1EDHP3Damage.toString()
+            tvP1Life.text=sg.p1Life.toString()
         }
+
+    }
+
+    override fun onResume() {
+        super.onResume()
+        val tvP1Life:TextView=findViewById(R.id.tvP1Life)
+        val tvP2Life:TextView=findViewById(R.id.tvP2Life)
+        val tvP3Life:TextView=findViewById(R.id.tvP3Life)
+        val tvP4Life:TextView=findViewById(R.id.tvP4Life)
+
+        val tvP4EDHP1Damage:TextView=findViewById(R.id.tvP4EDHP1Damage)
+        val tvP4EDHP2Damage:TextView=findViewById(R.id.tvP4EDHP2Damage)
+        val tvP4EDHP3Damage:TextView=findViewById(R.id.tvP4EDHP3Damage)
+
+        val tvP3EDHP1Damage:TextView=findViewById(R.id.tvP3EDHP1Damage)
+        val tvP3EDHP2Damage:TextView=findViewById(R.id.tvP3EDHP2Damage)
+        val tvP3EDHP4Damage:TextView=findViewById(R.id.tvP3EDHP4Damage)
+
+        val tvP2EDHP1Damage:TextView=findViewById(R.id.tvP2EDHP1Damage)
+        val tvP2EDHP3Damage:TextView=findViewById(R.id.tvP2EDHP3Damage)
+        val tvP2EDHP4Damage:TextView=findViewById(R.id.tvP2EDHP4Damage)
+
+        val tvP1EDHP2Damage:TextView=findViewById(R.id.tvP1EDHP2Damage)
+        val tvP1EDHP3Damage:TextView=findViewById(R.id.tvP1EDHP3Damage)
+        val tvP1EDHP4Damage:TextView=findViewById(R.id.tvP1EDHP4Damage)
+
+        tvP1Life.text=sg.p1Life.toString()
+        tvP2Life.text=sg.p2Life.toString()
+        tvP3Life.text=sg.p3Life.toString()
+        tvP4Life.text=sg.p4Life.toString()
+
+        tvP1EDHP2Damage.text=sg.p1EDHP2Damage.toString()
+        tvP1EDHP3Damage.text=sg.p1EDHP3Damage.toString()
+        tvP1EDHP4Damage.text=sg.p1EDHP4Damage.toString()
+
+        tvP2EDHP1Damage.text=sg.p2EDHP1Damage.toString()
+        tvP2EDHP3Damage.text=sg.p2EDHP3Damage.toString()
+        tvP2EDHP4Damage.text=sg.p2EDHP4Damage.toString()
+
+        tvP3EDHP1Damage.text=sg.p3EDHP1Damage.toString()
+        tvP3EDHP2Damage.text=sg.p3EDHP2Damage.toString()
+        tvP3EDHP4Damage.text=sg.p3EDHP4Damage.toString()
+
+        tvP4EDHP1Damage.text=sg.p4EDHP1Damage.toString()
+        tvP4EDHP2Damage.text=sg.p4EDHP2Damage.toString()
+        tvP4EDHP3Damage.text=sg.p4EDHP3Damage.toString()
+
     }
 }
