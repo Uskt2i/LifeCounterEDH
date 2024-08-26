@@ -231,11 +231,12 @@
         android:id="@+id/btnP1LifeTop"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/custom_ripple"
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/view_p1Life"
-        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHeight_percent="0.10"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnP1LifeButtom" />
@@ -244,11 +245,12 @@
         android:id="@+id/btnP1LifeButtom"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/custom_ripple"
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/view_p2Life"
-        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHeight_percent="0.10"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view_p1Life" />
@@ -261,7 +263,7 @@
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHeight_percent="0.10"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btnP1LifeTop"
         app:layout_constraintTop_toBottomOf="@+id/btnP2LifeButtom" />
@@ -270,11 +272,12 @@
         android:id="@+id/btnP2LifeButtom"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/custom_ripple"
         android:text=""
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/view_p2Life"
-        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHeight_percent="0.10"
         app:layout_constraintStart_toEndOf="@+id/btnP1LifeButtom"
         app:layout_constraintTop_toTopOf="@+id/view_p1Life" />
 
@@ -287,7 +290,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btnP3LifeButtom"
         app:layout_constraintEnd_toEndOf="@+id/view_p3Life"
-        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHeight_percent="0.10"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/view_p3Life" />
 
@@ -295,12 +298,13 @@
         android:id="@+id/btnP3LifeButtom"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/custom_ripple"
         android:text=""
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p3Life"
         app:layout_constraintEnd_toStartOf="@+id/view_p4Life"
-        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHeight_percent="0.10"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -312,7 +316,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btnP4LifeButtom"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHeight_percent="0.10"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/view_p4Life" />
 
@@ -320,14 +324,26 @@
         android:id="@+id/btnP4LifeButtom"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/custom_ripple"
         android:text=""
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/view_p4EDHp1"
         app:layout_constraintEnd_toEndOf="@+id/view_p4Life"
-        app:layout_constraintHeight_percent="0.11"
+        app:layout_constraintHeight_percent="0.10"
         app:layout_constraintStart_toEndOf="@+id/btnP3LifeButtom" />
     <!-- P4 EDH Button -->
+    <Button
+        android:id="@+id/btnP4Menu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/custom_ripple"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintStart_toEndOf="@+id/btnP4EDHP3Buttom" />
     <Button
         android:id="@+id/btnP4EDHP3Buttom"
         android:layout_width="0dp"
@@ -337,7 +353,7 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/view_p4EDHp3"
         app:layout_constraintEnd_toStartOf="@+id/view_p4EDHp4"
-        app:layout_constraintHeight_percent="0.07"
+        app:layout_constraintHeight_percent="0.06"
         app:layout_constraintStart_toStartOf="@+id/view_p4EDHp3" />
 
     <Button
@@ -626,6 +642,7 @@
         android:id="@+id/tvP4Life"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="40"
         android:textColor="#E6E6E6"
         android:textSize="128sp"
@@ -639,6 +656,7 @@
         android:id="@+id/tvP3Life"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="40"
         android:textColor="#E6E6E6"
         android:textSize="128sp"
@@ -652,6 +670,7 @@
         android:id="@+id/tvP2Life"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:scaleX="-1"
         android:scaleY="-1"
         android:text="40"
@@ -667,6 +686,7 @@
         android:id="@+id/tvP1Life"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:scaleX="-1"
         android:scaleY="-1"
         android:text="40"
@@ -846,4 +866,17 @@
         app:layout_constraintEnd_toStartOf="@+id/view_p2EDHp1"
         app:layout_constraintStart_toEndOf="@+id/view_p1EDHp1"
         app:layout_constraintTop_toTopOf="@+id/view_p1EDHp2" />
+
+    <TextView
+        android:id="@+id/tvMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textColor="#FFFEFE"
+        android:textSize="34sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/view_p4EDHp4"
+        app:layout_constraintTop_toTopOf="@+id/view_p4EDHp4" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -103,6 +103,8 @@ class MainActivity : AppCompatActivity() {
         val btnP1EDHP2Buttom:Button=findViewById(R.id.btnP1EDHP2Buttom)
         val btnP1EDHP3Buttom:Button=findViewById(R.id.btnP1EDHP3Buttom)
 
+        val btnP4Menu:Button=findViewById(R.id.btnP4Menu)
+
         var p1Life:Int=40
         var p2Life:Int=40
         var p3Life:Int=40
@@ -124,6 +126,10 @@ class MainActivity : AppCompatActivity() {
         var p1EDHP3Damage:Int=0
         var p1EDHP4Damage:Int=0
 
+        //Button Menu
+        btnP4Menu.setOnClickListener {
+
+        }
         //Button
         btnP1LifeTop.setOnClickListener {
             p1Life++
