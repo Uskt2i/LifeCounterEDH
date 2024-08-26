@@ -1,5 +1,6 @@
 package com.example.lifecounteredh
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.Build
 import android.view.WindowInsets
@@ -128,7 +129,11 @@ class MainActivity : AppCompatActivity() {
 
         //Button Menu
         btnP4Menu.setOnClickListener {
+            val intent = Intent(this,MenuActivity::class.java)
 
+            //2)値を渡す
+            intent.putExtra("MY_PARAM","Test")
+            startActivity(intent)
         }
         //Button
         btnP1LifeTop.setOnClickListener {
