@@ -26,7 +26,7 @@
         android:id="@+id/btnCloseMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#454545"
         android:text="Close menu"
         android:textSize="34sp"
@@ -34,18 +34,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/view_p4EDHp2" />
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
 
     <Button
         android:id="@+id/btnQuit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
+        android:layout_marginBottom="32dp"
         android:backgroundTint="#454545"
         android:text="Quit app"
         android:textSize="34sp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/btnRollTheDice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
@@ -54,36 +54,37 @@
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="#454545"
         android:text="Reset"
         android:textSize="34sp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/btnQuit"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivDice" />
 
     <Button
         android:id="@+id/btnRollTheDice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
         android:backgroundTint="#454545"
         android:text="Roll the dice"
         android:textSize="34sp"
         android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/ivDice"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCloseMenu" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/ivDice"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnReset"
+        app:layout_constraintBottom_toBottomOf="@+id/view_p4EDHp2"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRollTheDice"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/t_dice_01" />
 </androidx.constraintlayout.widget.ConstraintLayout>
